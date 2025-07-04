@@ -1,0 +1,8 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "./duckdb.db"
+      threads: 1
+      extensions: []
